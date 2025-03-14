@@ -28,6 +28,7 @@ nav a{
 a:hover{
     background-color: orangered;
     padding: .5rem .3rem;
+    transition: .9s;
 }
 section{
     /* padding: 5vw 9vw ; */
@@ -68,13 +69,13 @@ input{
 input::placeholder{
     color: black;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 600px){
     img{
         width: 25vw;
         float: right;
         margin-right: 15%;
         position: relative;
-        bottom: 7rem;
+        bottom: 6rem;
     }
 
     header nav{
@@ -93,7 +94,7 @@ input::placeholder{
     }
     nav form{
         border: 1px solid orangered;
-        padding: .3rem;
+        padding: .4rem 1rem;
         border-radius: 3px;
         background-color: rgba(8, 8, 8, 0.815);
     }
@@ -109,5 +110,9 @@ input::placeholder{
     }
     #icon{
         color: white;
+    }
+    header nav a{
+        margin: 3vw;
+        margin-top: 2vw;
     }
 }
